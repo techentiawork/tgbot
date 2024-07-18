@@ -6,6 +6,10 @@ import { config } from "dotenv";
 import { generate } from "./openai";
 import { redisMethods } from "./redis";
 import { claude } from "./claude";
+const port = process.env.PORT || 8000;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
 
 config()
 const telegramToken = process.env.TELEGRAM_BOT_TOKEN as string;
