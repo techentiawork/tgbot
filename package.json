@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"@anthropic-ai/sdk": "^0.22.0",
-		"@aws-sdk/client-s3": "^3.417.0",
+		"@aws-sdk/client-s3": "^3.621.0",
 		"@upstash/redis": "^1.22.0",
 		"axios": "^1.7.2",
 		"dotenv": "^16.3.1",
